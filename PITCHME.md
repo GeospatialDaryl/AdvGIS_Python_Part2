@@ -34,7 +34,7 @@
 ## `pip` Package manager
 Package management is awesomesauce!
 0. https://pypi.python.org/pypi
-1.  Open a CMD with WinFlag + "cmd"
+1.  Open a CMD with WinFlag + `cmd`
 2. Type `pip` - which `pip` did we get, and why?
 
 #HSLIDE
@@ -43,8 +43,8 @@ Package management is awesomesauce!
 2. Because we have multiple python installs, let's use the right one!
   + `c:\Python27\Scripts\pip.exe`
 2. Type `c:\Python27\Scripts\pip.exe install pymodis`
-3. Type `c:\Python27\Scripts\pip.exe --trusted-host pypi.python.org install pymodis`
-4. Profit
+3. Type `c:\Python27\Scripts\pip.exe --trusted-host pypi.python.org install numpy`
+4. Profit!
 
 #HSLIDE
 ## Type conversion
