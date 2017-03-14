@@ -108,7 +108,7 @@ to which all three names are bound.
 
 
 #HSLIDE
-### Assignement
+### assignment
 Since a name is a generic reference holder it is unreasonable to associate a fixed data type with it.
 
 However at a given time a name will be bound to some object, which will have a type;
@@ -164,7 +164,7 @@ Class inheritance and class hierarchies, another.
 5
 8
 ```
-`print`, `while`, multiple assignement
+`print`, `while`, multiple assignment
 
 #HSLIDE
 ## Flow Control 1: `if`
