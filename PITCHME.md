@@ -21,9 +21,11 @@ Package management is awesomesauce!
 0. <a ref="https://pypi.python.org/pypi>pypi.python.org</a>
 1. <a ref="https://github.com/willo12/spacegrids">My Favorite NetCDF Package"</a>
 1.  Open a CMD with WinFlag + "cmd"
-2. Type `pip`
-3. Type `pip --trusted-host pypi.python.org pymodis`
-4. Profit!
+2. Type `pip install pymodis`
+3. Type `pip --trusted-host pypi.python.org install pymodis`
+4. <a href="https://wiki.python.org/moin/WindowsCompilers">Python Wiki for Compilers</a>
+5. Install VC++14 stand-alone
+6. Type `pip --trusted-host pypi.python.org install pymodis`
 
 #HSLIDE
 ##  Assignment
@@ -34,7 +36,6 @@ Package management is awesomesauce!
 #HSLIDE
 ## Assignment
 <img src="https://i.stack.imgur.com/M3iZD.png">
-
 
 #HSLIDE
 ## Assignemnt: A Subtlety - C/Java vs. Python
