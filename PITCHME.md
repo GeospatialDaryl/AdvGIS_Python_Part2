@@ -63,7 +63,7 @@ The term 'duck typing' is now used to describe the dynamic typing paradigm used 
 
 #HSLIDE
 ## Assignment
-<img src="https://i.stack.imgur.com/M3iZD.png" width=500>
+<img src="https://i.stack.imgur.com/M3iZD.png" width=850>
 
 #HSLIDE
 ## Assignemnt: A Subtlety - C/Java vs. Python
