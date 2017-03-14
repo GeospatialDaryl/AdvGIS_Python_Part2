@@ -28,6 +28,22 @@ Package management is awesomesauce!
 6. Type `pip --trusted-host pypi.python.org install pymodis`
 
 #HSLIDE
+## Type conversion
+```python
+>>> a = 1
+>>> thisFileName = "Sweet_NetCDF_num"+a
+
+Traceback (most recent call last):
+  File "<pyshell#3>", line 1, in <module>
+    thisFileName = "Sweet_NetCDF_num"+a
+TypeError: cannot concatenate 'str' and 'int' objects
+>>> thisFileName = "Sweet_NetCDF_num"+str(a)
+>>> thisFileName
+'Sweet_NetCDF_num1'
+>>>
+```
+
+#HSLIDE
 ##  Assignment
 3. Assignment (token `=`, the equals sign).
   + Different than other C-style languages (C, Java, C++, etc).
@@ -64,8 +80,11 @@ Package management is awesomesauce!
 #HSLIDE
 ### Assignment
 OK - what happens?
-
-`x = 2; y = 2; z = 2`
+```python
+x = 2
+y = 2
+z = 2
+```
 
 #HSLIDE
 ### Assignment
@@ -79,6 +98,45 @@ Since a name is a generic reference holder it is unreasonable to associate a fix
 
 However at a given time a name will be bound to some object, which will have a type;
 ***thus there is dynamic typing.***
+
+#HSLIDE
+## Type conversion
+```python
+>>> a = 1
+>>> thisFileName = "Sweet_NetCDF_num"+a
+
+Traceback (most recent call last):
+  File "<pyshell#3>", line 1, in <module>
+    thisFileName = "Sweet_NetCDF_num"+a
+TypeError: cannot concatenate 'str' and 'int' objects
+# This is *literally* my most common error when coding.
+# Followed by using "len" in R
+>>> thisFileName = "Sweet_NetCDF_num"+str(a)
+>>> thisFileName
+'Sweet_NetCDF_num1'
+>>>
+```
+
+#HSLIDE
+## Python Type Conversions
+Function|Description|
+--------|-----------|
+int(x [,base])|Converts x to an integer. base specifies the base if x is a string.|
+long(x [,base] )|Converts x to a long integer. base specifies the base if x is a string.|
+float(x)|Converts x to a floating-point number.|
+complex(real [,imag])|Creates a complex number.|
+str(x)|Converts object x to a string representation.|
+
+#HSLIDE
+##  Naming some files example
+Imagine we already have a great function `writeMyData(inputFile)`
+```python
+for bears in indxPolarBear:
+	# do a bunch of stuff with your bear data
+	thisFile = "PolarBear"+str(bears)
+	print thisFile
+	# writeMyData(thisFile)
+```
 
 #HSLIDE
 ### Assignment
@@ -197,7 +255,7 @@ remember `len()`?
 ```python
 >>> for n in range(2, 10):
 ...     for x in range(2, n):
-...         if n % x == 0:
+...         if n % x == 0:  # % is modulus.  It is the whole number from division
 ...             print n, 'equals', x, '*', n/x
 ...             break
 ...     else:
@@ -209,3 +267,19 @@ remember `len()`?
 4 equals 2 * 2
 5 is a prime number
 ```
+
+#HSLIDE
+# \#
+
+#HSLIDE
+##Great Job, Folks
+That was a lot, but it is the core of learning the Python language.
+We have:
+* Basic types
+* Assignment
+* Flow control
+* Some standard library functions and statements
+  + `def`
+  + `print` vs. `print()`
+  + `len()`
+  + ``
