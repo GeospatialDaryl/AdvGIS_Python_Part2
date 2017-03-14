@@ -19,7 +19,6 @@
 ## `pip` Package manager
 Package management is awesomesauce!
 0. https://pypi.python.org/pypi
-1. https://github.com/willo12/spacegrids
 1.  Open a CMD with WinFlag + "cmd"
 2. Type `pip install pymodis`
 3. Type `pip --trusted-host pypi.python.org install pymodis`
@@ -49,6 +48,8 @@ TypeError: cannot concatenate 'str' and 'int' objects
 Python is "strongly typed" = it does not do implicit type conversion.
 Type error = Crash (an Exception)
 
+#HSLIDE
+### Typing
 This is not "static typing" - we can change the type of a variable by re-referencing it, and the compiler doesn not check ahead of time.
 
 The term 'duck typing' is now used to describe the dynamic typing paradigm used by the languages in this group.
@@ -62,7 +63,7 @@ The term 'duck typing' is now used to describe the dynamic typing paradigm used 
 
 #HSLIDE
 ## Assignment
-<img src="https://i.stack.imgur.com/M3iZD.png">
+<img src="https://i.stack.imgur.com/M3iZD.png" width=500>
 
 #HSLIDE
 ## Assignemnt: A Subtlety - C/Java vs. Python
@@ -270,7 +271,7 @@ remember `len()`?
 ```
 
 #HSLIDE
-# \#
+# #
 
 #HSLIDE
 ##Great Job, Folks
