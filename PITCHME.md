@@ -18,14 +18,12 @@
 #HSLIDE
 ## `pip` Package manager
 Package management is awesomesauce!
-0. <a ref="https://pypi.python.org/pypi>pypi.python.org</a>
-1. <a ref="https://github.com/willo12/spacegrids">My Favorite NetCDF Package"</a>
+0. https://pypi.python.org/pypi
+1. https://github.com/willo12/spacegrids
 1.  Open a CMD with WinFlag + "cmd"
 2. Type `pip install pymodis`
 3. Type `pip --trusted-host pypi.python.org install pymodis`
-4. <a href="https://wiki.python.org/moin/WindowsCompilers">Python Wiki for Compilers</a>
-5. Install VC++14 stand-alone
-6. Type `pip --trusted-host pypi.python.org install pymodis`
+4. Profit
 
 #HSLIDE
 ## Type conversion
@@ -42,6 +40,19 @@ TypeError: cannot concatenate 'str' and 'int' objects
 'Sweet_NetCDF_num1'
 >>>
 ```
+#HSLIDE
+### Typing
+- Duck Typing
+- Dynamic Typing
+- Strongly typed
+
+Python is "strongly typed" = it does not do implicit type conversion.
+Type error = Crash (an Exception)
+
+This is not "static typing" - we can change the type of a variable by re-referencing it, and the compiler doesn not check ahead of time.
+
+The term 'duck typing' is now used to describe the dynamic typing paradigm used by the languages in this group.
+
 
 #HSLIDE
 ##  Assignment
@@ -93,29 +104,15 @@ three names and one numeric object,
 to which all three names are bound.
 
 #HSLIDE
+
+
+#HSLIDE
 ### Assignement
 Since a name is a generic reference holder it is unreasonable to associate a fixed data type with it.
 
 However at a given time a name will be bound to some object, which will have a type;
 ***thus there is dynamic typing.***
 
-#HSLIDE
-## Type conversion
-```python
->>> a = 1
->>> thisFileName = "Sweet_NetCDF_num"+a
-
-Traceback (most recent call last):
-  File "<pyshell#3>", line 1, in <module>
-    thisFileName = "Sweet_NetCDF_num"+a
-TypeError: cannot concatenate 'str' and 'int' objects
-# This is *literally* my most common error when coding.
-# Followed by using "len" in R
->>> thisFileName = "Sweet_NetCDF_num"+str(a)
->>> thisFileName
-'Sweet_NetCDF_num1'
->>>
-```
 
 #HSLIDE
 ## Python Type Conversions
@@ -131,11 +128,15 @@ str(x)|Converts object x to a string representation.|
 ##  Naming some files example
 Imagine we already have a great function `writeMyData(inputFile)`
 ```python
+# in python, we can use `r"..."` to force raw strings
+# *Always* do this for paths - works for Windows and Nixes
+indxPolarBear = [1,2,3]
+pathToOutputs = r"D:/AwesomesaucePolarBearHatchery/"
 for bears in indxPolarBear:
 	# do a bunch of stuff with your bear data
-	thisFile = "PolarBear"+str(bears)
-	print thisFile
+	thisFile = pathToOutputs+"PolarBear"+str(bears)
 	# writeMyData(thisFile)
+  print "Bear model "+thisFile+" finished processing."
 ```
 
 #HSLIDE
