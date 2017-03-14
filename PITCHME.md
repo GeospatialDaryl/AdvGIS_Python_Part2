@@ -18,7 +18,8 @@
 #HSLIDE
 ## `pip` Package manager
 Package management is awesomesauce!
-0. <a ref="https://pypi.python.org/pypi>pypi.python.org</a> 
+0. <a ref="https://pypi.python.org/pypi>pypi.python.org</a>
+1. <a ref="https://github.com/willo12/spacegrids">My Favorite NetCDF Package"</a>
 1.  Open a CMD with WinFlag + "cmd"
 2. Type `pip`
 3. Type `pip --trusted-host pypi.python.org pymodis`
