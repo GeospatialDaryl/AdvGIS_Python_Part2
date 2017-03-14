@@ -8,6 +8,22 @@
 <span style="color:gray">Daryl Van Dyke</span>
 
 #HSLIDE
+## Resources
+0. www.github.com
+  + get an account!
+  + Join the FWS Github Group!  (Chris Lett has the form)
+
+1. Git for Windows (from Github)
+  + option for Windows CMD or Mingw64 command shell
+  + https://git-for-windows.github.io/
+
+2. Microsoft Git Credential Manager for Windows
+  + Ask your IT Folks for Help
+  + After installation, you need admin rights to set the creds.
+  + https://github.com/Microsoft/Git-Credential-Manager-for-Windows
+
+
+#HSLIDE
 ## Major Language Elements
 - Package Management with `pip`
 - Assignment and Reassignment
