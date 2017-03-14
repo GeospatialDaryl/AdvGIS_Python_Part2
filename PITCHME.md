@@ -9,10 +9,20 @@
 
 #HSLIDE
 ## Major Language Elements
+- Package Management with `pip`
 - Assignment and Reassignment
 - Flow Control
 - Dictionaries, Sets, and Iterables
 - Modules and Reusable code
+
+#HSLIDE
+## `pip` Package manager
+Package management is awesomesauce!
+0. <a ref="https://pypi.python.org/pypi>pypi.python.org</a> 
+1.  Open a CMD with WinFlag + "cmd"
+2. Type `pip`
+3. Type `pip --trusted-host pypi.python.org pymodis`
+4. Profit!
 
 #HSLIDE
 ##  Assignment
